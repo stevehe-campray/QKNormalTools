@@ -7,6 +7,6 @@ s.license      = 'MIT'
 s.authors      = {'stevehe-campray' => '602258720@qq.com'}
 s.platform     = :ios, '8.0'
 s.source       = {:git => 'https://github.com/stevehe-campray/QKNormalTools.git', :tag => s.version}
-s.source_files = 'QKNormalTools/QKNormalTools/ToolClass/**／*'
+s.source_files = 'ToolClass/**／*'
 s.requires_arc = true
 end
