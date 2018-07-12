@@ -15,7 +15,19 @@
 		7410EB7C20F6E41E0092797F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EB7B20F6E41E0092797F /* main.m */; };
 		7410EB8620F6E41E0092797F /* QKNormalToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EB8520F6E41E0092797F /* QKNormalToolsTests.m */; };
 		7410EB9120F6E41E0092797F /* QKNormalToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EB9020F6E41E0092797F /* QKNormalToolsUITests.m */; };
-		7410EBD720F724890092797F /* ToolClass in Resources */ = {isa = PBXBuildFile; fileRef = 7410EBD620F724890092797F /* ToolClass */; };
+		7410EBF420F7279B0092797F /* DXTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBDA20F7279B0092797F /* DXTAlertView.m */; };
+		7410EBF520F7279B0092797F /* NSDate+QKZCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBDC20F7279B0092797F /* NSDate+QKZCategory.m */; };
+		7410EBF620F7279B0092797F /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBDE20F7279B0092797F /* NSDate+Util.m */; };
+		7410EBF720F7279B0092797F /* NSLayoutConstraint+Sws.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBE020F7279B0092797F /* NSLayoutConstraint+Sws.m */; };
+		7410EBF820F7279B0092797F /* NSString+GNUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBE220F7279B0092797F /* NSString+GNUtil.m */; };
+		7410EBF920F7279B0092797F /* UIButton+CAPAdjustFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBE520F7279B0092797F /* UIButton+CAPAdjustFont.m */; };
+		7410EBFA20F7279B0092797F /* UIColor+GNUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBE720F7279B0092797F /* UIColor+GNUtil.m */; };
+		7410EBFB20F7279B0092797F /* UIFont+CAPJuageFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBE920F7279B0092797F /* UIFont+CAPJuageFont.m */; };
+		7410EBFC20F7279B0092797F /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBEB20F7279B0092797F /* UIImage+Color.m */; };
+		7410EBFD20F7279B0092797F /* UILabel+CAPAdjustFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBED20F7279B0092797F /* UILabel+CAPAdjustFont.m */; };
+		7410EBFE20F7279B0092797F /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBEF20F7279B0092797F /* UINavigationBar+Awesome.m */; };
+		7410EBFF20F7279B0092797F /* UITextField+CAPAdJustFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBF120F7279B0092797F /* UITextField+CAPAdJustFont.m */; };
+		7410EC0020F7279B0092797F /* UIView+BSTExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7410EBF320F7279B0092797F /* UIView+BSTExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +64,33 @@
 		7410EB8C20F6E41E0092797F /* QKNormalToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKNormalToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7410EB9020F6E41E0092797F /* QKNormalToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKNormalToolsUITests.m; sourceTree = "<group>"; };
 		7410EB9220F6E41E0092797F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7410EBD620F724890092797F /* ToolClass */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ToolClass; sourceTree = SOURCE_ROOT; };
+		7410EBD920F7279B0092797F /* DXTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXTAlertView.h; sourceTree = "<group>"; };
+		7410EBDA20F7279B0092797F /* DXTAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXTAlertView.m; sourceTree = "<group>"; };
+		7410EBDB20F7279B0092797F /* NSDate+QKZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+QKZCategory.h"; sourceTree = "<group>"; };
+		7410EBDC20F7279B0092797F /* NSDate+QKZCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+QKZCategory.m"; sourceTree = "<group>"; };
+		7410EBDD20F7279B0092797F /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
+		7410EBDE20F7279B0092797F /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
+		7410EBDF20F7279B0092797F /* NSLayoutConstraint+Sws.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Sws.h"; sourceTree = "<group>"; };
+		7410EBE020F7279B0092797F /* NSLayoutConstraint+Sws.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Sws.m"; sourceTree = "<group>"; };
+		7410EBE120F7279B0092797F /* NSString+GNUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GNUtil.h"; sourceTree = "<group>"; };
+		7410EBE220F7279B0092797F /* NSString+GNUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GNUtil.m"; sourceTree = "<group>"; };
+		7410EBE320F7279B0092797F /* QKNormalTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKNormalTools.h; sourceTree = "<group>"; };
+		7410EBE420F7279B0092797F /* UIButton+CAPAdjustFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CAPAdjustFont.h"; sourceTree = "<group>"; };
+		7410EBE520F7279B0092797F /* UIButton+CAPAdjustFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CAPAdjustFont.m"; sourceTree = "<group>"; };
+		7410EBE620F7279B0092797F /* UIColor+GNUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GNUtil.h"; sourceTree = "<group>"; };
+		7410EBE720F7279B0092797F /* UIColor+GNUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GNUtil.m"; sourceTree = "<group>"; };
+		7410EBE820F7279B0092797F /* UIFont+CAPJuageFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CAPJuageFont.h"; sourceTree = "<group>"; };
+		7410EBE920F7279B0092797F /* UIFont+CAPJuageFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CAPJuageFont.m"; sourceTree = "<group>"; };
+		7410EBEA20F7279B0092797F /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		7410EBEB20F7279B0092797F /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		7410EBEC20F7279B0092797F /* UILabel+CAPAdjustFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CAPAdjustFont.h"; sourceTree = "<group>"; };
+		7410EBED20F7279B0092797F /* UILabel+CAPAdjustFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CAPAdjustFont.m"; sourceTree = "<group>"; };
+		7410EBEE20F7279B0092797F /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		7410EBEF20F7279B0092797F /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		7410EBF020F7279B0092797F /* UITextField+CAPAdJustFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CAPAdJustFont.h"; sourceTree = "<group>"; };
+		7410EBF120F7279B0092797F /* UITextField+CAPAdJustFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CAPAdJustFont.m"; sourceTree = "<group>"; };
+		7410EBF220F7279B0092797F /* UIView+BSTExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSTExtention.h"; sourceTree = "<group>"; };
+		7410EBF320F7279B0092797F /* UIView+BSTExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSTExtention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +141,7 @@
 		7410EB6B20F6E41E0092797F /* QKNormalTools */ = {
 			isa = PBXGroup;
 			children = (
-				7410EBD620F724890092797F /* ToolClass */,
+				7410EBD820F7279B0092797F /* ToolClass */,
 				7410EB6C20F6E41E0092797F /* AppDelegate.h */,
 				7410EB6D20F6E41E0092797F /* AppDelegate.m */,
 				7410EB6F20F6E41E0092797F /* ViewController.h */,
@@ -134,6 +172,40 @@
 			);
 			path = QKNormalToolsUITests;
 			sourceTree = "<group>";
+		};
+		7410EBD820F7279B0092797F /* ToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				7410EBD920F7279B0092797F /* DXTAlertView.h */,
+				7410EBDA20F7279B0092797F /* DXTAlertView.m */,
+				7410EBDB20F7279B0092797F /* NSDate+QKZCategory.h */,
+				7410EBDC20F7279B0092797F /* NSDate+QKZCategory.m */,
+				7410EBDD20F7279B0092797F /* NSDate+Util.h */,
+				7410EBDE20F7279B0092797F /* NSDate+Util.m */,
+				7410EBDF20F7279B0092797F /* NSLayoutConstraint+Sws.h */,
+				7410EBE020F7279B0092797F /* NSLayoutConstraint+Sws.m */,
+				7410EBE120F7279B0092797F /* NSString+GNUtil.h */,
+				7410EBE220F7279B0092797F /* NSString+GNUtil.m */,
+				7410EBE320F7279B0092797F /* QKNormalTools.h */,
+				7410EBE420F7279B0092797F /* UIButton+CAPAdjustFont.h */,
+				7410EBE520F7279B0092797F /* UIButton+CAPAdjustFont.m */,
+				7410EBE620F7279B0092797F /* UIColor+GNUtil.h */,
+				7410EBE720F7279B0092797F /* UIColor+GNUtil.m */,
+				7410EBE820F7279B0092797F /* UIFont+CAPJuageFont.h */,
+				7410EBE920F7279B0092797F /* UIFont+CAPJuageFont.m */,
+				7410EBEA20F7279B0092797F /* UIImage+Color.h */,
+				7410EBEB20F7279B0092797F /* UIImage+Color.m */,
+				7410EBEC20F7279B0092797F /* UILabel+CAPAdjustFont.h */,
+				7410EBED20F7279B0092797F /* UILabel+CAPAdjustFont.m */,
+				7410EBEE20F7279B0092797F /* UINavigationBar+Awesome.h */,
+				7410EBEF20F7279B0092797F /* UINavigationBar+Awesome.m */,
+				7410EBF020F7279B0092797F /* UITextField+CAPAdJustFont.h */,
+				7410EBF120F7279B0092797F /* UITextField+CAPAdJustFont.m */,
+				7410EBF220F7279B0092797F /* UIView+BSTExtention.h */,
+				7410EBF320F7279B0092797F /* UIView+BSTExtention.m */,
+			);
+			path = ToolClass;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -242,7 +314,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7410EB7920F6E41E0092797F /* LaunchScreen.storyboard in Resources */,
-				7410EBD720F724890092797F /* ToolClass in Resources */,
 				7410EB7620F6E41E0092797F /* Assets.xcassets in Resources */,
 				7410EB7420F6E41E0092797F /* Main.storyboard in Resources */,
 			);
@@ -269,8 +340,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7410EBF420F7279B0092797F /* DXTAlertView.m in Sources */,
+				7410EBFF20F7279B0092797F /* UITextField+CAPAdJustFont.m in Sources */,
 				7410EB7120F6E41E0092797F /* ViewController.m in Sources */,
+				7410EBF820F7279B0092797F /* NSString+GNUtil.m in Sources */,
+				7410EBFE20F7279B0092797F /* UINavigationBar+Awesome.m in Sources */,
+				7410EBF620F7279B0092797F /* NSDate+Util.m in Sources */,
+				7410EBFD20F7279B0092797F /* UILabel+CAPAdjustFont.m in Sources */,
+				7410EBF520F7279B0092797F /* NSDate+QKZCategory.m in Sources */,
 				7410EB7C20F6E41E0092797F /* main.m in Sources */,
+				7410EBFA20F7279B0092797F /* UIColor+GNUtil.m in Sources */,
+				7410EBF720F7279B0092797F /* NSLayoutConstraint+Sws.m in Sources */,
+				7410EC0020F7279B0092797F /* UIView+BSTExtention.m in Sources */,
+				7410EBFB20F7279B0092797F /* UIFont+CAPJuageFont.m in Sources */,
+				7410EBFC20F7279B0092797F /* UIImage+Color.m in Sources */,
+				7410EBF920F7279B0092797F /* UIButton+CAPAdjustFont.m in Sources */,
 				7410EB6E20F6E41E0092797F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
